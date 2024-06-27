@@ -17,16 +17,16 @@ function isPalindrome(str){
 }
 
 function arrayMaxMin(arr){
-    let max = arr[0]
-    let min = arr[0]
+    let max = arr[0];
+    let min = arr[0];
     for (let i = 0; i < arr.length; i++){
         if (max < arr[i]){
-            max = arr[i]
+            max = arr[i];
         }
         if (min > arr[i]){
-            min = arr[i]
+            min = arr[i];
         }
     }
-    let minMax = [min, max]
-    return minMax
+    let minMax = [min, max];
+    return minMax;
 }
